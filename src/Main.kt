@@ -4,6 +4,7 @@ import kotlin.concurrent.thread
 fun main() {
 
 
+    while (true){
     println("El elevador de encuentra DETENIDO en el lobby")
     Thread.sleep(1000)
     var piso: Int?
@@ -24,7 +25,9 @@ fun main() {
     piso++
         Thread.sleep(1000)
     }
-
+        println("El elevador ha llegado al piso indicado")
+        Thread.sleep(1000)
+        }
 
 }
 
